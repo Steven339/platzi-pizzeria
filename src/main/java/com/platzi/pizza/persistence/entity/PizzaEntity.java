@@ -14,10 +14,10 @@ public class PizzaEntity {
     @Column(nullable = false)
     private Long id;
 
-    @Column(length = 50, unique = true, nullable = false)
+    @Column(unique = true, nullable = false)
     private String name;
 
-    @Column(length = 100, nullable = false)
+    @Column(nullable = false)
     private String description;
 
     @Column(nullable = false, columnDefinition = "decimal(10,2)")
