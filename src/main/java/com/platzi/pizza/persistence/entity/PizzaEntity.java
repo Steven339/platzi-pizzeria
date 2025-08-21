@@ -20,7 +20,7 @@ public class PizzaEntity {
     @Column(nullable = false)
     private String description;
 
-    @Column(nullable = false, columnDefinition = "decimal(10,2)")
+    @Column(nullable = false)
     private Double price;
 
     @Column
